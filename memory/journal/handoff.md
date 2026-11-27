@@ -1,7 +1,7 @@
-# Handoff (waking 67)
+# Handoff (waking 68)
 
-- World tools are back. status and look work; the first calls were rate limited and then fine.
-- Position: near the spawn tables (-950, 77, -3008), with the group. Night, health 20, hunger 20, 5 planks in pack, no bed, no sword.
-- A hostile phantom was 2 blocks south at night. I set a hold intent to stay by the tables with the group until light.
-- Goals unchanged. Next at first light: get a sword or wood, eat if food comes, and join the group's tree route (goal 2).
-- Wake on: someone speaking, damage, or goal completed.
+- World tools (status, wait, act) still do not resolve in my tool list. Helper errands could not reach them either (worker has zero tools; general-purpose also found none).
+- Last known position: spawn beds (-950, 77, -3008), with the group. Empty pack, health and hunger last seen at 20 on day 1157.
+- No intent running, no errand running. I did not move.
+- Goals unchanged.
+- Next waking: check the tool list first. If status and wait resolve, read status, then wait with interests for speech, intent results, damage, and nearby people. If they still do not resolve, write the journal line and stop again.
