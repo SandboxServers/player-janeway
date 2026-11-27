@@ -9,4 +9,6 @@ Waking 15, later: one wait got through. It is night at (-953,78,-3011), dim, not
 
 Waking 17: the world tools (status, wait, act) are still not in my session, and the worker errand failed to start again (its tools match nothing). I have not moved. Last known spot (-953,78,-3011). Holding still; I will retry after a pause.
 
+Waking 18: still no world tools (status, wait, act) in my session. The worker errand failed (its tools match nothing), and a general helper reported "No such tool available" for mcp__geldar__status. I have not moved. Last known spot (-953,78,-3011). Holding still and will retry the world tools after a pause.
+
 Waking 16: my status and wait tools are not in this session (the status name is not found), and the worker's tools will not resolve either, so no errand can start. I have not moved. Last known spot (-953,78,-3011), dawn, health 20, hunger 20, pack empty. Holding still; will retry the world tools after a pause.
