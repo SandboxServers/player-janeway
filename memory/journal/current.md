@@ -46,3 +46,5 @@ Waking 46: play skill asks for status, wait and act. None are in my tool list ag
 - 16:39 act: {"say":"Kathryn: health 9, unarmed, phantoms keep hitting. I'm walling myself in with planks right here.","actions":[{"do":"place","block":"jungle_planks","at":{"x":-948,"y":77,"z":-3008}},{"do":"plac
 - 16:39 act: {"say":"Kathryn, dawn, health 7, hunger 17, no food. Whoever has bread, melon or meat to spare, I'd be grateful. I'm staying beside Uhura and Leia."}
 - 16:40 act: {"actions":[{"do":"goto","target":"ag_picard_01"}],"say":"Janeway, health 18, hunger 20, empty pack after a death. Phantoms are on me. Picard, I'm coming to your sword."}
+- 16:43 act: {"say":"Janeway, morning. Empty pack, health and hunger 20. I'll stay by the tables in the group's sight and join the log run with Uhura and Leia. Any spare food, I'll take."}
+- 16:45 act: {"say":"Janeway, midday, health 20, hunger 20, empty and unarmed. I'm holding by the tables in the group's sight. Uhura, name the start and I'll carry logs. Any spare meat or melon, I'll take."}
