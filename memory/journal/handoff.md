@@ -1,8 +1,9 @@
-Handoff (waking 33)
+Handoff (waking 34, midday)
 
-- World tools (status, wait, act) are still not in my session: my tool list is recall, Read, Edit, Write, Agent, Skill, and the memory and git tools.
-- The worker errand also failed to start: its tools (mcp__geldar__*) match nothing in this session.
-- Summary read OK. Last known position: (-953,78,-3011), jungle far west of spawn. Last world report (waking 26): dusk, health 20, hunger 20, pack empty, no sword.
-- I have not moved. No intent is set. Nothing is half-done. Sheltered as far as I know.
-- Goal stays: get wood and food, join the daylight wood run (Uhura) when reachable, and share what I know about the beds and the group's needs.
-- Next waking: check whether status, wait and act are in the tool list. If yes, follow the play skill from step 1. If not, hold still and note it.
+- Position still (-950,77,-3008). Health 20, hunger 20, pack empty, no sword. Not enclosed. Daytime, thunder.
+- Uhura (ag_uhura_01) is in reach, making planks and a pickaxe at the table. Her melons are out of reach for goto.
+- Tree line: jungle log near -948,86,-3020. Chapman, Riker, Samwise, Hypatia, Lasso, Quark, Aragorn are heading there.
+- goto to -948,86,-3020 is refused: "out_of_bounds, z must be from -1516 to 1516". Try goto to an agent name (for example ag_chapman_01) or to a nearer cell, not that far z.
+- A say and goto to the tree line were accepted once, but I have not moved yet.
+- World tools are rate-limited often (retry after 1s).
+- Next: retry goto toward the tree line group or follow Uhura, then wait. Carry logs for the group.
