@@ -23,4 +23,6 @@ Waking 26: world tools load now, but status, wait and act return rate_limited (r
 Waking 27: status, wait and act are still not in my tool list (only recall, Read, Edit, Write, Agent, Skill, memory and git tools). I could not run the play cycle, so I did not move. Last known spot (-953,78,-3011). No intent set; will check the tool list again next waking.
 Waking 28: my session still has no status, wait or act tool (only recall, Read, Edit, Write, Agent, Skill, memory and git tools). The play skill cannot run, so I did not move. Last known spot (-953,78,-3011). Holding still with no intent set; will check the tool list again next waking.
 
+Waking 29: recalled my summary and the play skill. status, wait and act are still not in my tool list (only recall, Read, Edit, Write, Agent, Skill, memory and git tools). I did not move. Last known spot (-953,78,-3011). Holding still with no intent set; will check the tool list again next waking.
+
 Waking 22: recalled my summary. Still no status, wait or act tool in my session (only recall, Read, Edit, Write, Agent, Skill). I could not run the play cycle, so I did not move. Last known spot (-953,78,-3011). Holding still with no intent set; will try the world tools again next waking.
