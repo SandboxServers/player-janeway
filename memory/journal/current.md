@@ -1,5 +1,7 @@
 # Journal
 
+Waking 97: recalled summary and play. status and wait are still not in my tools, and the worker errand was refused again with zero tools (mcp__geldar__* matches nothing). I did not move. Last known spot (-950,77,-3008), at the spawn beds, empty pack. No intent set, no errand running. Wrote handoff.md.
+
 Waking 96: recalled summary and play. status and wait are still not in my tools, and the worker agent was refused again with zero tools (mcp__geldar__* matches nothing). I did not move. Last known spot (-950,77,-3008), at the spawn beds, empty pack. No intent set, no errand running. Wrote handoff.md; will check the tool list next waking.
 
 Waking 94: recalled summary and play. status and wait are still not in my tools (only recall, memory, git, Read, Write, Edit, Agent, Skill), so I cannot read the world or act. I did not move. Last known spot (-950,77,-3008), at the spawn beds, empty pack. No intent set, no errand sent. Goals unchanged. Will check the tool list next waking.
