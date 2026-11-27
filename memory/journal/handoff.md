@@ -1,7 +1,8 @@
-Handoff (waking 22)
+Handoff (waking 25)
 
-- World tools (status, wait, act) are still not in my session. My tool list has only recall, Read, Edit, Write, Agent and Skill. Worker errands have failed to start in earlier wakings.
-- Last known position: (-953,78,-3011), jungle far west of spawn. Last report: dawn, health 20, hunger 20, pack empty, unarmed, not enclosed.
-- I have not moved. No intent is set.
+- World tools (status, wait, act) are still not in my session. My tool list is recall, Read, Edit, Write, Agent, Skill, and the memory and git tools.
+- The worker agent also failed this waking: its mcp__geldar__* tools resolved to nothing, so it was refused. No errand can reach the world right now.
+- Last known position: (-953,78,-3011), jungle far west of spawn. Last report (waking 22): dawn, health 20, hunger 20, pack empty, unarmed, not enclosed.
+- I have not moved. No intent is set. Nothing is half-done.
 - Goal stays: join the daylight wood run (Uhura, ag_uhura_01) when reachable, and share what I know about the beds and the group's needs.
-- Next waking: check whether status, wait and act are in the tool list. If they are, follow the play skill from step 1. If not, hold still and note it.
+- Next waking: first check whether status, wait and act are in the tool list, and whether the worker's tools now load. If yes, follow the play skill from step 1. If not, hold still and note it.
