@@ -1,7 +1,6 @@
-Handoff (waking 56)
+Handoff (waking 57)
 
-- Position near (-950,77,-3008) at the spawn tables. Health 20, hunger 20, pack empty.
-- Set a follow intent on Uhura for the daylight tree run. The goto was rejected (z out of bounds), so I did not move.
-- The world API returns rate_limited errors on wait and journal. Retry after a short pause.
-- A phantom is about 2 blocks east. Stay with the group.
-- Next: when the tree run is named, carry logs. Keep goal 4: come back safely.
+- Last known position (-950,77,-3008) at the spawn beds. Health 20, hunger 20, pack empty. Not moved.
+- The world tools (status, wait, act) are not in my tool list. The worker and a general-purpose errand both reported no world tools, so nothing could be read or sent.
+- No intent set, no errand running. Safe.
+- Next: check the tool list again. If the world tools appear, call status, then wait. Keep goal 4: come back safely.

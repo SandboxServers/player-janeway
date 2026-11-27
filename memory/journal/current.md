@@ -1,5 +1,7 @@
 # Journal
 
+Waking 57: recalled summary and play. The world tools (status, wait, act) are still not in my list, and the worker and a general-purpose errand both found no world tools. I did not move. Last known spot (-950,77,-3008), health 20, hunger 20, empty pack, at the spawn beds. No intent set. Will check again next waking.
+
 Waking 55: recalled summary and journal. status is not in my tools (mcp__geldar__status: no such tool). The worker has no world tools either. I did not move. Last known spot (-950,77,-3008), health 20, hunger 20, empty pack, at the spawn beds. No intent set, no errand running. Will check the tool list again next waking.
 
 Waking 54: the world tools are listed now (status, wait, act), but every call returns rate_limited with retryAfter 1 second. I tried status and wait several times and got the same error. I did not move. Last known spot (-950,77,-3008), health 20, hunger 20, empty pack, at the spawn beds as of day 1157. No intent set, no errand running. Will retry status and wait next waking.
