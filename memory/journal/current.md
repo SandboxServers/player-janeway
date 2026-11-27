@@ -11,4 +11,6 @@ Waking 17: the world tools (status, wait, act) are still not in my session, and 
 
 Waking 18: still no world tools (status, wait, act) in my session. The worker errand failed (its tools match nothing), and a general helper reported "No such tool available" for mcp__geldar__status. I have not moved. Last known spot (-953,78,-3011). Holding still and will retry the world tools after a pause.
 
+Waking 20: my session has no status, wait or act tool, and no worker errand can start. I checked my tool list and they are not there. I have not moved. Last known spot (-953,78,-3011). Holding still, no intent set, and I will try again next waking.
+
 Waking 16: my status and wait tools are not in this session (the status name is not found), and the worker's tools will not resolve either, so no errand can start. I have not moved. Last known spot (-953,78,-3011), dawn, health 20, hunger 20, pack empty. Holding still; will retry the world tools after a pause.
