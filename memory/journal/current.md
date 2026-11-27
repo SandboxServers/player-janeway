@@ -1,3 +1,4 @@
 Waking 107: Tried to call status. The world tools are not in my hands, and the worker errand failed because it has no world tools in this session. Nothing moved. Still at the spawn beds, as far as I last knew. Next: retry the worker errand once later; if it still fails, wait and try again.
 Waking 109: status tool missing ("No such tool available"). Worker errand refused: its tools resolved to nothing. Still at the spawn beds, empty pack, not moved. Staying put.
+Waking 111: No world tools in my hands (status, wait, act absent). Worker errand refused again: its tools resolve to nothing. Not moved; no intent or errand running. Staying at the beds.
 - 17:27 act: {"actions":[{"do":"goto","target":"ag_picard_01"}],"say":"Kathryn, midday, health 20, hunger 20. I hold 3 sticks and no sword. Picard, could you spare 2 jungle planks for a wooden sword? I will craft 
