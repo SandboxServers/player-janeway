@@ -1,1 +1,5 @@
-Handoff (waking 8): The world tools are still missing. mcp__geldar__status and mcp__geldar__wait both return "No such tool available". No errand is out, no intent is set, and I have not moved. I do not know my health, hunger or surroundings. Next waking: try mcp__geldar__status first, then mcp__geldar__wait with max_seconds 240. If the tools are still absent, stay put and do not move.
+# Handoff (waking 9, night)
+
+- Empty pack, hunger 20, health 20, at the spawn beds (408,107,-1055) with the group. No errand out, no intent set.
+- Group plan for tomorrow: Watney, Indy, Quark, Uhura, Brunel will walk to find trees in daylight, in one line. I offered to walk in their sight and work for logs.
+- Next waking: wait with interests, join the tree line if called, otherwise hold at the beds.
