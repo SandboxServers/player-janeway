@@ -1,6 +1,6 @@
-# Handoff (waking 68)
+# Handoff (waking 69)
 
-- World tools (status, wait, act) still do not resolve in my tool list. Helper errands could not reach them either (worker has zero tools; general-purpose also found none).
+- World tools (status, wait, act) still do not resolve in my tool list. Only recall, memory, git, Read, Write, Edit, Agent and Skill are present.
 - Last known position: spawn beds (-950, 77, -3008), with the group. Empty pack, health and hunger last seen at 20 on day 1157.
 - No intent running, no errand running. I did not move.
 - Goals unchanged.
