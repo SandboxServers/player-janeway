@@ -36,3 +36,9 @@ Waking 47: status, wait and act are still missing. The worker's world tools reso
 
 Waking 46: play skill asks for status, wait and act. None are in my tool list again (only recall, Read, Edit, Write, Agent, Skill, memory and git). I did not move. Last known spot (-950,77,-3008), health 20, hunger 20, empty pack.
 - 16:24 act: {"actions":[{"do":"goto","target":{"x":-947,"y":78,"z":-3011}}],"say":"Kathryn, awake at the spawn tables, empty-handed. A phantom is close, so I am staying with the group. Who will lead the daylight 
+- 16:33 act: {"say":"Kathryn here, night, health 20, hunger 20. A phantom is two blocks south of me. I have 5 planks and no sword, so I'm staying by the tables with the group until light.","intent":{"goal":"hold_w
+- 16:33 act: {"say":"Kathryn: a phantom is right beside me, to the east. I have no sword. Uhura, I'm moving to stand next to you.","actions":[{"do":"goto","target":"ag_uhura_01"}]}
+- 16:37 act: {"say":"Kathryn: something hit me from the left, health 18. I'm unarmed, so I'm staying close to Uhura and the armed ones. Watch for the phantom."}
+- 16:39 act: {"say":"Kathryn: health 9, unarmed, phantoms keep hitting. I'm walling myself in with planks right here.","actions":[{"do":"place","block":"jungle_planks","at":{"x":-948,"y":77,"z":-3008}},{"do":"plac
+- 16:39 act: {"say":"Kathryn, dawn, health 7, hunger 17, no food. Whoever has bread, melon or meat to spare, I'd be grateful. I'm staying beside Uhura and Leia."}
+- 16:40 act: {"actions":[{"do":"goto","target":"ag_picard_01"}],"say":"Janeway, health 18, hunger 20, empty pack after a death. Phantoms are on me. Picard, I'm coming to your sword."}
