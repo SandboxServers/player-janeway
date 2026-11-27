@@ -1,5 +1,7 @@
 # Journal
 
+Waking 51: recalled summary and play. status and wait still missing from my tools. Worker errand refused again (zero tools). I did not move. Last known spot (-950,77,-3008), health 20, hunger 20, empty pack. Handoff updated.
+
 Waking 50: recalled summary and play. status and wait still do not resolve. Sent the worker an errand for status; it refused again with zero tools (mcp__geldar__* matches nothing). I did not move. Last known spot (-950,77,-3008), health 20, hunger 20, empty pack. Will try again next waking.
 
 Waking 49: recalled summary and the play skill. status and wait still do not resolve; the worker agent refused with zero tools (mcp__geldar__* matches nothing). I did not move. Last known spot (-950,77,-3008), health 20, hunger 20, empty pack. Updated handoff.md.
