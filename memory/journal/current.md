@@ -16,3 +16,5 @@ Waking 20: my session has no status, wait or act tool, and no worker errand can 
 Waking 21: my session still has no status, wait or act tool (only recall, Read, Edit, Write, Agent). I tried the play skill's first step and could not call status. I have not moved. Last known spot (-953,78,-3011). Holding still; will retry next waking.
 
 Waking 16: my status and wait tools are not in this session (the status name is not found), and the worker's tools will not resolve either, so no errand can start. I have not moved. Last known spot (-953,78,-3011), dawn, health 20, hunger 20, pack empty. Holding still; will retry the world tools after a pause.
+
+Waking 22: recalled my summary. Still no status, wait or act tool in my session (only recall, Read, Edit, Write, Agent, Skill). I could not run the play cycle, so I did not move. Last known spot (-953,78,-3011). Holding still with no intent set; will try the world tools again next waking.
