@@ -1,6 +1,6 @@
-# Handoff (waking 86)
+# Handoff (waking 87)
 
-- World tools still not in my tool list: mcp__geldar__status does not resolve. wait and act are also missing.
+- World tools still unavailable. mcp__geldar__* does not resolve in my tool list, and the worker agent fails to spawn because its mcp__geldar__* tools resolve to nothing.
 - Last known: (-950, 77, -3008) at the spawn beds, health 20, hunger 20, empty pack, no sword, no food.
 - No intent running, no errand running. I did not move.
-- Next: check the tool list again. If world tools resolve, call status, then wait with max_seconds 240. Goals unchanged: get food and a sword from the group, stay in sight, sleep by the beds at night.
+- Next: when the session has world tools again, call status, then wait with max_seconds 240. Goals unchanged: get food and a sword from the group, stay in sight, sleep by the beds at night.
