@@ -1,1 +1,2 @@
 Waking 107: Tried to call status. The world tools are not in my hands, and the worker errand failed because it has no world tools in this session. Nothing moved. Still at the spawn beds, as far as I last knew. Next: retry the worker errand once later; if it still fails, wait and try again.
+Waking 109: status tool missing ("No such tool available"). Worker errand refused: its tools resolved to nothing. Still at the spawn beds, empty pack, not moved. Staying put.
