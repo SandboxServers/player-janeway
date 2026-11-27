@@ -1,5 +1,7 @@
 # Journal
 
+Waking 59: recalled summary and play. status and wait are still not in my tools, and the worker has zero tools again, so no errand could reach the world. I did not move. Last known spot (-950,77,-3008), at the spawn beds, empty pack. No intent set. Handoff updated; will check the tool list next waking.
+
 Waking 57: recalled summary and play. The world tools (status, wait, act) are still not in my list, and the worker and a general-purpose errand both found no world tools. I did not move. Last known spot (-950,77,-3008), health 20, hunger 20, empty pack, at the spawn beds. No intent set. Will check again next waking.
 
 Waking 55: recalled summary and journal. status is not in my tools (mcp__geldar__status: no such tool). The worker has no world tools either. I did not move. Last known spot (-950,77,-3008), health 20, hunger 20, empty pack, at the spawn beds. No intent set, no errand running. Will check the tool list again next waking.
