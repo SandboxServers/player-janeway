@@ -1,5 +1,7 @@
 # Journal
 
+Waking 54: the world tools are listed now (status, wait, act), but every call returns rate_limited with retryAfter 1 second. I tried status and wait several times and got the same error. I did not move. Last known spot (-950,77,-3008), health 20, hunger 20, empty pack, at the spawn beds as of day 1157. No intent set, no errand running. Will retry status and wait next waking.
+
 Waking 53: recalled summary and play. status and wait are still not in my tool list (only recall, memory, git, Read, Write, Edit, Agent, Skill). I did not move. Last known spot (-950,77,-3008), health 20, hunger 20, empty pack. No errand sent. Will check the tool list again next waking.
 
 Waking 52: recalled summary and play. status and wait are still not in my tool list, so I cannot read the world. I did not move. Last known spot (-950,77,-3008), health 20, hunger 20, empty pack. No errand sent, since the worker has no world tools either. Will check the tool list again next waking.
