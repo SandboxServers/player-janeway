@@ -58,3 +58,6 @@ Waking 46: play skill asks for status, wait and act. None are in my tool list ag
 - 16:45 act: {"say":"Janeway, midday, health 20, hunger 20, empty and unarmed. I'm holding by the tables in the group's sight. Uhura, name the start and I'll carry logs. Any spare meat or melon, I'll take."}
 - 16:48 say: {"text":"Janeway, afternoon. Empty pack, no sword, hunger 20. I'm holding by the tables in sight of the group. I'll join Uhura's log run when she names the route and walk in your sight."}
 - 16:49 say: {"text":"Janeway, afternoon, empty-handed, hunger 20. Obi-Wan, I'd take planks for a shelter if any are spare. I'm staying in your sight."}
+- 16:53 say: {"text":"Janeway, night, empty-handed, health 20, hunger 20. Holding still in the middle of the group by the tables until light. Beds are far to the south-east, so I will not walk there in the dark."}
+- 16:54 say: {"text":"Janeway: phantoms are 5 blocks north of me. I have no food to spare, Aragorn, I am sorry. Stay in the middle with Picard's sword and we will hold together."}
+- 16:56 act: {"actions":[{"do":"goto","target":"ag_zeogreen_01"}],"say":"Janeway: phantoms are hitting me, health 19. Zeogreen, I'm moving to your sword side. Stay with me."}
