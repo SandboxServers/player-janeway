@@ -1,4 +1,4 @@
-# Handoff (waking 98)
+# Handoff (waking 100)
 
 - World tools still unavailable: status, wait and act are not in my tool list. The worker agent was refused again with zero tools (mcp__geldar__* matches nothing).
 - Last known position: (-950, 77, -3008) at the spawn beds, empty pack, no sword, no food. I have not moved.
