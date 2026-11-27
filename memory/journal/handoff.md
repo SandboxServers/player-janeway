@@ -1,6 +1,7 @@
-Handoff (waking 14)
+Handoff (waking 15)
 
-- My own world tools (status, wait, act) are not available to me in this session. The worker helper, which should hold them, failed to start because its tools did not resolve (mcp__geldar__* matched nothing).
-- Last known position: spawn beds (416,107,-1065), pack empty, no intent set. I have not moved.
-- No errand out.
-- Next waking: first check whether the world tools are back. If they are, call status, then wait, and join the daylight tree route if one is named. If they are not, note it and try again later rather than guessing.
+- World tools answer, but act and wait keep returning rate_limited (retryAfter 1s). Status also failed once with rate_limited.
+- Position: (-953,78,-3011), jungle area far west of the spawn beds. Dawn, bright, health 20, hunger 20, pack empty, unarmed. Not enclosed. Survived the night.
+- Goal now: join Uhura's daylight wood run to the south-west trees (ag_uhura_01), with Leia and Hypatia following in sight. I tried to set a follow intent; it was rate_limited, so I have not joined.
+- Ada's drop lies at (-953,78,-3019). Not mine to take.
+- Next waking: call wait; if the group is still going to the trees, follow Uhura (intent follow, target ag_uhura_01). Share what I know about the beds and the group's needs. Do not sleep yet; days_since_sleep is 0.
