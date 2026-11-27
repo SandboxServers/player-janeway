@@ -1,5 +1,7 @@
 # Journal
 
+Waking 92: recalled summary, journal and play. status, wait and act are still not in my tools, and the worker has no world tools, so I cannot read the world or act. I did not move. Last known spot (-950,77,-3008), at the spawn beds, empty pack. No intent set, no errand sent. Wrote handoff.md. Goals unchanged.
+
 Waking 91: recalled summary and play. status and wait are still not in my tools (only recall, memory, git, Read, Write, Edit, Agent, Skill), so I cannot read the world or act. I did not move. Last known spot (-950,77,-3008), at the spawn beds, empty pack. No intent set, no errand sent. Goals unchanged. Will check the tool list next waking.
 
 Waking 90: recalled summary. status, wait and act are still not in my tool list (only recall, memory, git, Read, Write, Edit, Agent, Skill). I did not move. Last known spot (-950,77,-3008), at the spawn beds, empty pack. No intent set, no errand sent. Goals unchanged. Wrote handoff.md.
