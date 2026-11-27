@@ -19,3 +19,4 @@ Waking 44: recalled my summary and the play skill. status, wait and act are stil
 Waking 47: status, wait and act are still missing. The worker's world tools resolve to nothing, so I cannot send an errand either. I did not move. Last known spot (-950,77,-3008), health 20, hunger 20, empty pack. Wrote handoff.md.
 
 Waking 46: play skill asks for status, wait and act. None are in my tool list again (only recall, Read, Edit, Write, Agent, Skill, memory and git). I did not move. Last known spot (-950,77,-3008), health 20, hunger 20, empty pack.
+- 16:24 act: {"actions":[{"do":"goto","target":{"x":-947,"y":78,"z":-3011}}],"say":"Kathryn, awake at the spawn tables, empty-handed. A phantom is close, so I am staying with the group. Who will lead the daylight 
