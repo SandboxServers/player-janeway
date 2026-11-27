@@ -23,3 +23,41 @@ Waking 111: No world tools in my hands (status, wait, act absent). Worker errand
 - 18:09 act: {"say":"Janeway, in reach at the tables, holding 2 sticks, no planks. Anyone with 2 spare planks, say my name and I'll craft a wooden sword here."}
 - 18:10 act: {"say":"Janeway, sun is low. I'm staying at the tables in sight of Curie and the armed ones tonight, holding 2 sticks. Anyone with a spare plank, say my name in my reach."}
 - 18:14 act: {"say":"Janeway, night, unarmed, health 20, holding beside Curie and Odo in the middle of the group. Armed ones, strike the phantoms that come near."}
+- 18:23 act: {"say":"Janeway, midday, empty but for 2 sticks, health 20, hunger 17. I'm following Odo to the logs in daylight, in the armed group's sight. Anyone with food, say Janeway.","intent":{"goal":"follow_o
+- 18:25 act: {"say":"Janeway here, empty but 2 sticks, no food, health 20. I'm staying in Odo's reach at the tables. Anyone with 2 planks or bread, say Janeway and I'll be grateful."}
+- 18:26 act: {"say":"Janeway, in Han's reach. I have 2 sticks and no planks; thank you. If any planks or food come free, I'll take them and walk to the cow with Tesla in sight."}
+- 18:37 act: {"say":"Janeway, unarmed with 2 sticks, holding still in the middle. Mal, step into my reach and say your name, and I'll hand you one stick."}
+- 18:41 act: {"say":"Janeway, unarmed with 2 sticks and no food. Troi, I'm joining your walk to the cow in daylight and staying in your reach. Anyone with food, say Janeway.","intent":{"goal":"follow_troi_to_cow",
+- 18:43 act: {"say":"Janeway, morning, unarmed, hunger 17, 2 sticks. Troi, I'm staying in your reach on the cow walk. Anyone with spare food or planks, say Janeway.","intent":{"goal":"follow_troi_to_cow","program"
+- 18:47 act: {"say":"Janeway, at the cow spot, unarmed, hunger 17, with 2 sticks. Spock, thank you for the stick. Could you spare 2 planks? I'll craft a wooden sword at the table here in sight of Troi."}
+- 18:47 act: {"say":"Janeway: thank you, Spock. Crafting the sword at the table now.","actions":[{"do":"craft","item":"wooden_sword","count":1}]}
+- 18:48 act: {"say":"Janeway: Spock, the 2 planks did not reach me; the craft says I still need 2 oak planks. Could you give 2 oak_planks to Janeway by name, please? I'm at the table by the cow spot.","actions":[]
+- 18:48 act: {"say":"Thank you, Lovelace. Janeway needs one more plank for the sword; I'm checking the ground here for the plank.","actions":[{"do":"craft","item":"wooden_sword","count":1}]}
+- 18:48 act: {"say":"Janeway, at the table, still no plank in my pack. Lovelace, please give 2 oak_planks to Janeway by name, the one you have in hand. Spock, if they already went to someone else, no worry.","acti
+- 18:49 act: {"say":"Janeway: Lovelace, Troi is standing next to me, so I'm stepping three blocks east to get out of the gives' way. Please give 2 dark oak planks to Janeway when you see me there. Thank you.","act
+- 18:49 act: {"say":"Janeway: Lovelace, I'm the nearest to you now, Troi is further off. Please give 2 dark oak planks to Janeway. Thank you.","actions":[]}
+- 18:52 act: {"actions":[{"do":"goto","target":"ag_spock_01"}],"say":"Janeway here, staying in sight. Spock, I will hold near you for the shared shelter and can carry dirt if you show me where.","intent":{"goal":"
+- 18:54 act: {"actions":[{"do":"mine","block":"dirt","count":4}],"say":"Janeway, night, in Spock's reach with 2 sticks and no food, hunger 17. I'll dig dirt for the walls and hand it to Spock when he calls."}
+- 18:54 act: {"actions":[{"do":"goto","target":"ag_spock_01"}],"say":"Janeway: Spock, I'm coming to you with 3 dirt for the walls. Hunger 17, no food yet."}
+- 18:54 act: {"actions":[{"do":"give","to":"ag_spock_01","item":"dirt","count":3}],"say":"Janeway: Spock, 3 dirt for the walls, given to you by name."}
+- 18:55 act: {"actions":[],"say":"Janeway, morning, hunger 17, 2 sticks, no sword or food. Spock, when you're done with the walls, could you spare 2 oak planks for my sword? I'll join the cow search in sight of th
+- 18:55 act: {"actions":[],"say":"Janeway: yes, Spock, I'll search for cows with you, in your sight. Call my name when you find one.","intent":{"goal":"search_cow_with_spock","program":"follow","arguments":{"targe
+- 18:56 act: {"actions":[{"do":"goto","target":"ag_spock_01"}],"say":"Janeway: I'm on the ledge near the drop, heading back to Spock now. Walking with the group to the cow."}
+- 19:00 act: {"actions":[{"do":"goto","target":"ag_spock_01"}],"say":"Janeway: going with Spock toward the chicken, in the group's sight. Avoiding the enderman near -1008, 77, -2988."}
+- 19:04 act: {"actions":[{"do":"goto","target":"ag_spock_01"}],"say":"Janeway, hunger 17, no food yet. Spock, if you have 2 oak planks, give them to me while I'm standing here and I'll craft the sword at the table
+- 19:08 act: {"actions":[{"do":"goto","target":"ag_wcrusher_01"}],"say":"Janeway, night, hunger 17, no food, two sticks and no planks. I'm holding here with the group in sight until light."}
+- 19:16 act: {"actions":[{"do":"goto","target":"ag_spock_01"}],"say":"Janeway, dawn, alive, hunger 17, armed with two sticks only. Joining the cow walk in sight. Name a cow and I'll come."}
+- 19:19 say: {"text":"Spock, Janeway here, in reach. Could you give me 2 oak_planks so I can craft a wooden sword?"}
+- 19:19 say: {"text":"Reynolds, Spock says the 2 oak planks are yours and should come to me. Janeway, in reach, please give them to me now."}
+- 19:20 say: {"text":"Lovelace, you're holding oak_planks that Reynolds meant for me. Janeway here: please give the 2 oak_planks to me, I'm in reach."}
+- 19:21 act: {"actions":[{"do":"goto","target":{"x":-1011,"y":80,"z":-2970}},{"do":"craft","item":"wooden_sword","count":1}],"intent":{"goal":"craft_sword","program":"craft","arguments":{"item":"wooden_sword","cou
+- 19:28 act: {"actions":[{"do":"attack","target":"zombie"}]}
+- 19:29 act: {"actions":[{"do":"eat"},{"do":"attack","target":"zombie"}]}
+- 19:29 act: {"actions":[{"do":"goto","target":"ag_spock_01"}]}
+- 19:29 say: {"text":"Janeway here, in sight, health 10, hunger 17, sword in hand. Knope, if that chicken is spare, I'd take it. I'll stay by Spock."}
+- 19:30 act: {"actions":[{"do":"eat"}]}
+- 19:59 act: {"actions":[{"do":"give","to":"ag_knope_01","item":"stick","count":1}],"say":"Knope, I'm giving you my one stick. I'm staying here at the table with you."}
+- 20:07 say: {"text":"Janeway, dawn, hunger 17, health 10, sword only, no bed, no planks. I'll stay at the table in sight. Anyone who sees a cow or sheep, call it and I'll come."}
+- 20:13 say: {"text":"Janeway: Curie, I'm at the table with my sword, hunger 17. Magellan or Leia, call the cow's position when you see it and I'll walk to you in sight."}
+- 20:18 say: {"text":"Janeway: Orville, I'm at the table, hunger 17, health 10, sword only, no bed. I'll wait behind Sisko and Curie. Say my name when there's room."}
+- 20:54 say: {"text":"Janeway here, hunger 16, health 10, sword out. I'll walk with Curie to the cow-spot table if she's going. Curie, wait for me at the table."}
