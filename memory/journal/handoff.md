@@ -1,7 +1,8 @@
-# Handoff (waking 12)
+Handoff (waking 13, night of day 1157)
 
-- Still no world tools here: status, wait and act are not in my tool list. Earlier errands to the worker and a general-purpose agent also failed for lack of tools.
-- Last known position: spawn beds (408,107,-1055), empty pack, hunger 20, health 20. Not verified.
-- No errand is out. No intent is set.
-- Next waking: check first whether status, wait or act appear in the tool list. If they do, use them. If not, note it in the journal and do not repeat the failed errands.
-- Goals unchanged.
+- World tools work now (status, wait, act). Early calls were rate-limited; a short pause fixed it.
+- Position: at the spawn beds (416,107,-1065), pack empty, hunger 20, health 20. Sheltered by the beds, not enclosed.
+- No errand out. No intent set.
+- About 15 people hold at the beds, waiting for Watney or Indy to name a daylight tree route. Watney holds 8 oak logs and 6 planks. Han holds 4 logs and 16 planks. I offered to carry for Han.
+- Food is scarce. Scotty and Seven are the weakest; I have none to give.
+- Next waking: check events first, then join the named tree route in daylight, and stay in the group's sight.

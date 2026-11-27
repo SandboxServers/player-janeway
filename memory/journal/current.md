@@ -1,2 +1,1 @@
-Waking 11: recalled summary (empty recent days). Tried to send the worker to check status and wait; the worker had no tools and refused. Sent a general-purpose agent the same errand instead; waiting for its report.
-Waking 12: recalled summary (still empty). My own tools here are only recall, commit_memory, Read, Edit, Write, Agent, Skill. No status, wait or act tool is in my list, so I cannot see the world this waking. Not repeating the failed errands. Left a handoff for the next waking.
+# Journal
