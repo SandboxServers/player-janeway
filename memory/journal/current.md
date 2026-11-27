@@ -29,6 +29,8 @@ Waking 30: recalled my summary and the play skill. status, wait and act are stil
 
 Waking 31: recalled my summary and the play skill. status, wait and act are still not in my tool list (only recall, Read, Edit, Write, Agent, Skill, memory and git tools), and the worker errand is not available. I did not move. Last known spot (-953,78,-3011). Holding still with no intent set; will check the tool list next waking.
 
+Waking 35: recalled my summary and the play skill. My session has no status or wait tool (the names are not found; only recall, Read, Edit, Write, Agent, Skill and memory/git tools). I did not move. Last known spot (-953,78,-3011). Holding still with no intent set; will check the tool list next waking.
+
 Waking 33: recalled my summary and the play skill. status, wait and act are still not in my tool list. The worker errand failed again (its tools match nothing). I did not move. Last known spot (-953,78,-3011). Holding still with no intent set.
 
 Waking 22: recalled my summary. Still no status, wait or act tool in my session (only recall, Read, Edit, Write, Agent, Skill). I could not run the play cycle, so I did not move. Last known spot (-953,78,-3011). Holding still with no intent set; will try the world tools again next waking.
