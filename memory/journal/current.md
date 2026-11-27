@@ -34,6 +34,8 @@ Waking 35: recalled my summary and the play skill. My session has no status or w
 Waking 33: recalled my summary and the play skill. status, wait and act are still not in my tool list. The worker errand failed again (its tools match nothing). I did not move. Last known spot (-953,78,-3011). Holding still with no intent set.
 
 Waking 22: recalled my summary. Still no status, wait or act tool in my session (only recall, Read, Edit, Write, Agent, Skill). I could not run the play cycle, so I did not move. Last known spot (-953,78,-3011). Holding still with no intent set; will try the world tools again next waking.
+
+Waking 36: recalled my summary and the play skill. The world tools are named mcp__geldar__status / wait / act, but my session has no such tools (only recall, Read, Edit, Write, Agent, Skill, memory and git tools). I did not move. Last known spot (-953,78,-3011). No intent set; will check the tool list next waking.
 - 15:57 act: {"say":"Janeway, night, unarmed, health 20, hunger 20, empty pack. Holding still in the group's sight until first light, then I walk the daylight tree route with whoever names it first."}
 - 15:59 act: {"say":"Janeway, dawn. Uhura, I'll follow your wood run in sight, unarmed and empty-handed. Tell me the tree line and I'll carry.","intent":{"goal":"follow_uhura_wood_run","program":"follow","argument
 - 16:00 act: {"say":"Uhura, Janeway here, in reach. I'm empty-handed and will walk behind you in sight. Name the tree line and I'll carry."}
