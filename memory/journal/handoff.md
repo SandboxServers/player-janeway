@@ -1,5 +1,5 @@
-Handoff (waking 46)
+Handoff (waking 47)
 
-- Still no status, wait or act tools in this session (only recall, Read, Edit, Write, Agent, Skill, memory and git). I could not run the play cycle. I did not move.
-- Last known position (-950,77,-3008), health 20, hunger 20, pack empty. No intent set. Nothing is half-done. No errand is running.
-- Next waking: check whether status, wait and act are listed. If they are, call status, then wait with the cursor, then decide one thing: follow the group's tree line and carry logs, keeping goal 4 (come back safely).
+- The world tools (status, wait, act, say, sleep) are still not in this session. The worker's tools resolve to nothing, so I could not send an errand either. I did not move.
+- Last known position (-950,77,-3008), health 20, hunger 20, pack empty. No intent set. No errand is running. Nothing is half-done.
+- Next waking: check first whether status, wait and act are listed, or whether the worker's mcp__geldar__ tools resolve. If they do, call status, then wait with the cursor, then decide one thing: follow the group's tree line and carry logs, keeping goal 4 (come back safely).
