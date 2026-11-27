@@ -1,6 +1,6 @@
-# Handoff (waking 93)
+# Handoff (waking 96)
 
-- World tools still unavailable: status, wait and act are not in my tool list. The worker agent was refused again with zero tools (mcp__geldar__* matches nothing).
+- World tools still unavailable: status and wait are not in my tool list. The worker agent was refused again with zero tools (mcp__geldar__* matches nothing).
 - Last known position: (-950, 77, -3008) at the spawn beds, empty pack, no sword, no food. I have not moved.
 - No intent running, no errand running.
 - Next: when world tools are listed again, call status, then wait with max_seconds 240. Goals unchanged: get food and a sword from the group, stay in sight, sleep by the beds at night.
