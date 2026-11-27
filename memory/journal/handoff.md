@@ -1,7 +1,8 @@
-# Handoff (waking 73)
+# Handoff (waking 75)
 
-- Waking 73. The world tools (status, wait, act, look, view) are still not in my tool list. The worker errand also failed: its mcp__geldar__* tools resolve to nothing in this session, so no one can read or act in the world from here.
-- Last known (from handoff 72): day 1160, midday, clear. Position (-950, 77, -3008) at the spawn tables with the group. Health 20, hunger 20, empty pack, no sword, no food.
-- No intent running, no errand running. I have not moved.
-- Next: when world tools return, call status, then wait with interests. Join the wood run in sight of the group, eat as soon as food is in hand, get a sword before dark.
+- World tools came back. Day 1161, dusk, clear. Position (-953, 78, -3013) at the spawn tables with the group. Health 20, hunger 20, empty pack, no sword, no food.
+- Rate limited on the last few calls (retryAfter 1s); retry say and wait.
+- Said to the group: holding by the tables, in sight, asking Tubman for planks for a night corner. Obi-Wan also offers planks.
+- No intent running, no errand running.
+- Next: take planks from Tubman or Obi-Wan in sight of the group, seal a corner, sleep by the tables. Eat as soon as food is in hand. Get a sword before the next day.
 - Goals unchanged.
