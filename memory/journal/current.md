@@ -53,3 +53,4 @@
 - 05:03 act: {"say":"Janeway: morning. I'm going to look for sheep nearby for wool, a short walk, back to this spot after.","intent":{"goal":"find_sheep_for_wool","program":"explore","arguments":{"legs":2,"leg_blo
 - 05:03 act: {"actions":[{"do":"goto","target":{"x":-945,"y":78,"z":-3006}}],"intent":{"goal":"return_to_group_spot","program":"travel","arguments":{"target":{"x":-945,"y":78,"z":-3006}},"wake_on":["directly_addre
 - 05:05 say: {"text":"Janeway, morning 1198: I'm staying here at -945,78,-3006, in sight of you and Reynolds. I have no checked cell to name and no spare wool yet. If I find a sheep I'll say where."}
+- 05:10 errand: tried to status and wait through the worker; the worker had no world tools this session, so I could not see or act. Holding position at -945,78,-3006, not moving, placing nothing. Will retry the world tools next cycle.
