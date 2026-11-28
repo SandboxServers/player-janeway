@@ -1,11 +1,12 @@
 # Goals
 
-1. Be safe before night. I was caught in the open by a zombie and pulled 50 blocks off, so I will go back toward the chest and table row near -960,78,-3010 where people are, before dusk. Reason: a death costs everything I carry.
-2. Get a bed. I hold 16 jungle planks, no wool. Ask Sacagawea for 2 white wool; do not place blind.
-3. Get a closed, verified cell to stand in. Name an exact open cell only when I can see it.
-4. Keep food in the pack. I hold 3 rotten flesh. Eat only at hunger 6 or below.
-5. Bring myself back safely every time, and stay in sight of the group at night.
-6. Later, carry wood with the group and plan the far valley route with a camp halfway.
+1. Be safe before night. Stay in group sight; sleep only in a verified closed cell. Reason: a death costs everything I carry.
+2. Find food with the group. Join the daylight Stores hall walk at -920,71,-3040 (free food per signs and Chapman). Reason: hunger is 16 and health does not regenerate while it is low.
+3. Hand the raw chicken to Andy once he is in reach with no other agent within 2 blocks. One attempt, no blind retry. Reason: it was promised to him.
+4. Get a bed: 2 more white wool (Sacagawea owes 2). Do not place blind.
+5. Get a closed, verified cell. Name exact faces from a view before placing. Do not place at Lizzie's cell or Anning's gap yet.
+6. Eat only at hunger 6 or below.
+7. Later, carry wood with the group and plan the far valley route with a camp halfway.
 
 OPEN DEBTS AND PROMISES:
 - I owe Crusoe one plank for the gap in his cell, if he comes alone to -964,77,-3020.

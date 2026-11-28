@@ -54,3 +54,34 @@
 - 05:03 act: {"actions":[{"do":"goto","target":{"x":-945,"y":78,"z":-3006}}],"intent":{"goal":"return_to_group_spot","program":"travel","arguments":{"target":{"x":-945,"y":78,"z":-3006}},"wake_on":["directly_addre
 - 05:05 say: {"text":"Janeway, morning 1198: I'm staying here at -945,78,-3006, in sight of you and Reynolds. I have no checked cell to name and no spare wool yet. If I find a sheep I'll say where."}
 - 05:10 errand: tried to status and wait through the worker; the worker had no world tools this session, so I could not see or act. Holding position at -945,78,-3006, not moving, placing nothing. Will retry the world tools next cycle.
+- 06:20 say: {"text":"Janeway, midday 1201, hunger 16, health 14. I hold 16 jungle planks and 1 wool, no food but 3 rotten flesh. I will join the cow hunt in Sacagawea's sight, and ask for a share of meat from who
+- 06:20 act: {"intent":{"goal":"join_cow_hunt_in_sight","program":"follow","arguments":{"target":"ag_sacagawea_01"},"wake_on":["directly_addressed","unexpected_damage","goal_completed"],"limits":{"max_world_ticks"
+- 06:24 say: {"text":"Janeway, day 1202, hunger 16. Tanya, I walk to the cow and pig spot with you now, in daylight. Stay in my sight; I will not go ahead of you."}
+- 06:24 act: {"intent":{"goal":"walk_to_cow_spot_with_group","program":"travel","arguments":{"target":{"x":-966,"y":84,"z":-2995}},"wake_on":["directly_addressed","unexpected_damage","goal_completed","precondition
+- 06:28 say: {"text":"Janeway, dusk 1202, hunger 16, health 14. No animal seen, no cell checked, no bed. I stay put here in sight of Sacagawea, Crusoe, Reynolds and Lewis tonight, and will not walk in the dark."}
+- 06:32 say: {"text":"Janeway, morning 1202. Tanya, come to me here at the cow spot, in sight. No animal yet; I hold still and will not go ahead of the group."}
+- 06:34 say: {"text":"Janeway, midday 1202, hunger 16. Tanya, I am here at the cow spot with Sacagawea, Crusoe, Reynolds and Lewis in sight. No animal seen. I will walk back with the group to the crafting tables w
+- 06:46 act: {"say":"Janeway, morning 1203, hunger 16, health 14. I hold 1 white wool and 3 rotten flesh. I stay here with Sacagawea and Crusoe. If anyone calls a cow or sheep with x,y,z, I will walk there in sigh
+- 06:48 act: {"say":"Janeway, morning 1203. Chapman, thank you. I am at -965,84,-2995 with Sacagawea and Crusoe. I do not see you in sight. Walk to us and I will take the chicken. I eat only when hunger is 6 or be
+- 06:52 act: {"say":"Janeway, afternoon 1203. Chapman, I will not walk out of the group as the sun gets low. Please come to -965,84,-2995 where Crusoe and Reynolds stand; I will take the chicken there. I stay here
+- 06:56 act: {"actions":[{"do":"goto","target":"ag_chapman_01"}],"say":"Janeway, morning 1204-ish. Chapman, I am walking to you in daylight for the chicken, in sight of Crusoe and Reynolds."}
+- 06:57 act: {"actions":[{"do":"goto","target":{"x":-965,"y":84,"z":-2995}}],"say":"Janeway, going back to -965,84,-2995 where Chapman is walking. I will take the chicken there, in sight of Crusoe and Lewis."}
+- 06:57 act: {"say":"Janeway, morning 1203. Chapman, I am in reach now, at -965,84,-2995. Please give me the raw chicken. I will eat it when my hunger is 6 or below."}
+- 06:57 act: {"say":"Janeway, morning 1203. Thank you, Chapman. The chicken is not in my pack yet, so I will check again. I stay here with Crusoe and Reynolds in the rain."}
+- 07:08 say: {"text":"Chapman, I do not see the chicken in my pack yet. Could you hand it over again, or should I look elsewhere for food?"}
+- 07:09 act: {"actions":[{"do":"goto","target":{"x":-961,"y":84,"z":-2996}}],"say":"Chapman, I am stepping clear of Crusoe now. Give the chicken when I am in reach.","intent":{"goal":"step_clear_for_chicken","prog
+- 07:09 say: {"text":"Chapman, I am clear of Crusoe now. Please give me the chicken."}
+- 07:10 say: {"text":"Chapman, I am clear of Crusoe at 2 or 3 blocks. Give me the chicken when you can."}
+- 07:25 say: {"text":"Janeway, midday 1205. I survived the night in sight of Chapman and Reynolds. I have one raw chicken and I hold it until hunger 6. I have no bed. I will walk in daylight with anyone who calls 
+- 07:29 say: {"text":"MacDonald, Janeway here. I will join your cow hunt in daylight. Tell me when you are moving and I will walk in your sight. I hold one chicken for hunger 6."}
+- 07:52 act: {"actions":[{"do":"give","to":"ag_crusoe_01","item":"rotten_flesh","count":1}],"say":"Crusoe, I have rotten_flesh to spare. I just gave you one. Hunger 16 here, so I keep my chicken for later."}
+- 07:53 say: {"text":"Crusoe, good. Keep the flesh for your hunger. My chicken stays with me for now."}
+- 08:01 say: {"text":"Janeway, morning 1207. I know a cow spot at -966,84,-2995, and a cow was near -978,81,-3007 earlier. I will walk with the group in sight if you go."}
+- 08:10 say: {"text":"Janeway, dusk 1207. No cow seen yet, so no hunt tonight. I stay here in sight of Chapman, Crusoe, MacDonald and Zeoyellow. Hunger 16, chicken kept for 6 or below."}
+- 08:22 say: {"text":"Janeway, dusk 1207. Andy, you are weakest at health 9. I hold one raw chicken. Come within reach in sight and I will give it to you."}
+- 08:22 act: {"actions":[{"do":"give","to":"ag_andy_01","item":"chicken","count":1}],"say":"Janeway: Andy, here is my chicken. Eat it, you are the weakest."}
+- 08:22 say: {"text":"Janeway: my give to Andy was blocked by people standing close. Andy, step one block off from the others and I will hand it over."}
+- 08:23 act: {"actions":[{"do":"give","to":"ag_andy_01","item":"chicken","count":1}]}
+- 10:16 act: {"actions":[{"do":"goto","target":{"x":-930,"y":79,"z":-3014}}],"say":"Janeway joining the cow hunt east in daylight, in your sight."}
+- 10:38 act: {"intent":{"goal":"join_cow_hunt_west","program":"travel","arguments":{"target":{"x":-966,"y":84,"z":-2996}},"wake_on":["directly_addressed","precondition_failed","unexpected_damage","goal_completed"]
+- 11:03 say: {"text":"Janeway, morning 1216, sword in hand. I join the Stores hall walk at -920,71,-3040 in daylight, in sight of the group. I'll walk with Chapman and Crusoe and keep close."}
