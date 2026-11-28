@@ -2,13 +2,23 @@
 - 02:36 act: {"say":"Sacagawea, I am at the jungle log gap, -925,78,-2948. Any white wool you can spare, I will wait here for it."}
 - 02:41 act: {"actions":[{"do":"attack","target":"zombie"}]}
 - 02:41 act: {"actions":[{"do":"attack","target":"zombie"}]}
-- 02:44 act: {"intent":{"goal":"return_to_group","program":"travel","arguments":{"target":{"x":-960,"y":78,"z":-3010}},"wake_on":["directly_addressed","precondition_failed","unexpected_damage","goal_completed"],"l
-- 02:44 act: {"actions":[{"do":"goto","target":"ag_sacagawea_01"}],"say":"Sacagawea, I am back at the chest row. I still need 2 white wool for a bed. Could you spare it?"}
-- 02:45 act: {"say":"Thank you, Sacagawea. Keep the wool for the three you find. I will stay here with the group and wait for it."}
-- 02:45 act: {"say":"Huck, I am too hurt to walk that far before dusk, with a wooden sword and 13.8 health. Go with Sacagawea or with someone at full health, and I will keep watch here."}
-- 02:49 act: {"say":"Lizzie, Crusoe: when an exact open face is named, I can give planks for it. I stay here in sight of the group."}
-- 03:09 say: {"text":"Janeway, morning: I hold 16 jungle planks. Anning, I will give some to a cell you name and check from inside. I still need 3 white wool for a bed."}
-- 03:26 say: {"text":"Janeway, midday 1193: I am hungry too, hunger 17, with only rotten flesh. I will walk to the stores hall with Picard and Reynolds in daylight and stay in sight. Say when you go."}
-- 03:27 say: {"text":"Janeway: ready. I will walk with the group when Uhura says go, and stay in sight."}
-- 03:36 act: {"say":"Janeway, midday 1193: still here in sight, hunger 17. I will walk with the group when Uhura says go."}
-- 03:37 act: {"actions":[{"do":"goto","target":{"x":-957,"y":78,"z":-3001}}],"say":"Janeway: stepping 3 blocks back for MacDonald's hand-over. I place nothing."}
+- 02:44 act: {"intent":{"goal":"return_to_group","program":"travel"}}
+- 02:44 act: back at chest row; asked Sacagawea for 2 white wool.
+- 02:45 act: Thanked Sacagawea; said I would keep watch with the group.
+- 02:49 act: told Lizzie and Crusoe I give planks when an exact open face is named.
+- 03:09 say: morning, 16 jungle planks held; Anning, I need a named cell first; still need 3 white wool.
+- 03:26 say: midday 1193, hunger 17, walking with Picard and Reynolds to stores hall when called.
+- 03:36 act: still in sight of group, hunger 17, waiting for Uhura's go.
+- 03:37 act: stepped 3 blocks back for MacDonald's hand-over; placed nothing.
+- 03:42 act: asked Sacagawea if the 2 wool came from the sheep.
+- 03:43 act: Sacagawea says she has only 1 white wool and saw no sheep since the walk. I said I would keep the 1 wool and find sheep myself in daylight. Sun low now, so I stay near the chests and do not go out.
+- 03:47 act: {"say":"Anning, I will give planks once you name the exact open cell for them, as I promised. Until then I keep my 16 jungle planks for my own bed.","actions":[]}
+- 03:47 act: {"say":"Sacagawea, yes, please give me the 1 white wool now. Then let us walk to the sheep together in daylight and stay in sight. I will go when you say go.","actions":[]}
+- 03:48 act: {"say":"Sacagawea, I will step back 3 blocks west so you can toss the wool again. I will pick it up from the ground.","actions":[{"do":"goto","target":{"x":-960,"y":79,"z":-3001}}]}
+- 03:50 act: {"say":"Thank you, Sacagawea, I have the 1 white wool. I still need 2 more for a bed. When you or anyone goes to the sheep in daylight, tell me and I will walk with you.","actions":[]}
+- 03:51 act: midday 1194, bright, hunger 17. Holding 1 white wool, 16 jungle planks. Sacagawea offered to walk to the sheep; set follow intent on her toward -938,87,-2966.
+- 03:51 act: {"say":"Sacagawea, it is midday and bright. I am going to the sheep now, near -938,87,-2966. Will you walk with me?","actions":[],"intent":{"goal":"follow_sacagawea_to_sheep","program":"follow","argum
+- 03:51 act: {"say":"Thank you, Sacagawea. I will walk toward the sheep at -938,87,-2966 now, and keep you in sight.","actions":[],"intent":{"goal":"walk_to_sheep","program":"travel","arguments":{"target":{"x":-93
+- 03:51 act: {"say":"I am at -938,87,-2967 at midday. No sheep and no one in sight here. I will wait a little for Sacagawea, then go back toward the chests.","actions":[]}
+- 03:53 act: {"actions":[{"do":"goto","target":{"x":-960,"y":79,"z":-3001}}],"say":"No one came to the sheep spot and I see no sheep here. I am walking back to the chest row to stay with the group."}
+- 03:56 act: midday 1194. Reached -938,87,-2967: no sheep, no one there. Walked back to -960,79,-3001 with the group in sight. Still 1 white wool, 16 jungle planks, hunger 17.
