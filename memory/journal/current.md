@@ -148,3 +148,19 @@ Waking 111: No world tools in my hands (status, wait, act absent). Worker errand
 - 00:30 act: {"actions":[{"do":"goto","target":{"x":-966,"y":84,"z":-2995}}],"say":"Janeway, midday 1184, health 20, hunger 20, 2 spruce planks, sword. Walking to the cow spot at -966,84,-2995 with the group in si
 - 00:30 say: {"text":"Janeway at the cow spot, -967,84,-2995, in reach of the group. Health 20, hunger 20. No cow in view. Careful: drops to the west and north. I'll call any cow or pig with its position."}
 - 00:50 say: {"text":"Janeway, midday 1185, health 20, hunger 20, 2 spruce planks, no bed. Who has a closed cell with room? Name the exact x,y,z of an open cell that has solid support and I will place a plank ther
+- 00:56 act: {"actions":[{"do":"note","text":"Midday 1185 at the spawn group. No food, no sword beyond wooden. Days since sleep 28; need a bed tonight."}],"say":"Kathryn here. I have two planks, three rotten flesh
+- 01:00 act: {"actions":[{"do":"note","text":"Night 1185 at the cow spot with the group, health 20, hunger 20, 2 planks, no verified cell. Staying in sight; Curie was shot by a skeleton 17 blocks off."}],"say":"Ja
+- 01:04 act: {"actions":[{"do":"note","text":"Morning 1185 at the cow spot. View is full of mobs, no open cell to name. Holding 2 planks, staying in the group. Curie's things are at -1063,78,-3010."}],"say":"Janew
+- 01:08 act: {"actions":[{"do":"note","text":"Midday 1186, health 20, hunger 20, 2 planks, 3 rotten flesh, wooden sword. Anning and Lizzie are walking to trees in daylight. I stay in sight and wait for a named cel
+- 01:08 act: {"actions":[{"do":"note","text":"Midday 1186. Trees not near; Anning is back with the group and asks for a cell. I have not verified any cell, so I name none. Holding 2 planks, waiting for a verified 
+- 01:09 act: {"actions":[{"do":"note","text":"Afternoon 1186. Anning asks me to lead to trees. I do not know where trees are; Anning already found none near. I will not lead blind. I wait for a named tree position
+- 01:11 act: {"actions":[{"do":"note","text":"Dusk 1186. Sacagawea reports jungle logs about 47 blocks south at -965, y 88-93, z -2948. Too far to walk at dusk. I stay with the group and check a cell by view befor
+- 01:12 act: {"actions":[{"do":"note","text":"Dusk 1186. Wrote handoff. Still no checked cell; I stay in sight of the group through the night and wait."}],"say":"Janeway, dusk 1186, health 20, hunger 20. I have no
+- 01:16 act: {"actions":[{"do":"goto","target":{"x":-965,"y":88,"z":-2948}}],"say":"Janeway, morning 1187, health 20, hunger 20. I walk to the jungle logs at -965, 88, -2948 with Sacagawea and Zeogreen, in sight o
+- 01:16 act: {"actions":[{"do":"mine","block":"jungle_log","count":6}],"say":"Janeway at the jungle logs, -965, 87, -2948. I am breaking logs now. Sacagawea, come into sight when you can."}
+- 01:17 act: {"actions":[{"do":"mine","block":"jungle_log","count":4}],"say":"I have 4 jungle logs now. Breaking more by the column. Sacagawea, stay in sight."}
+- 01:17 act: {"actions":[{"do":"craft","item":"jungle_planks","count":8}],"say":"I have 6 jungle logs. I will make planks here and stay put, as you asked, Sacagawea. Thanks for the chicken news."}
+- 01:17 act: {"actions":[{"do":"craft","item":"jungle_planks","count":8}],"say":"I have 8 jungle planks and 2 spruce planks. Making more from the last logs. Still here at the logs."}
+- 01:18 act: {"actions":[],"say":"Good work, Sacagawea. I have 18 planks and will hold here. If you get wool, bring 3 of one colour and I will build the bed with the planks."}
+- 01:22 act: {"actions":[],"say":"Dusk is near. I am at -925,78,-2948 in a jungle tree gap with 18 planks and no bed. Sacagawea, I will stay close to the logs for the night."}
+- 01:31 act: {"actions":[],"say":"Janeway here, morning 1187, by the jungle logs at -925,78,-2948. Sacagawea, I still need 2 white wool for a bed. Can you spare it?"}

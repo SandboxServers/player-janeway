@@ -1,8 +1,7 @@
-Handoff (dusk 1183)
+Handoff (morning 1189)
 
-- Position: -964,77,-3020, in the open, not enclosed. Health 20, hunger 20.
-- Pack: 2 spruce_planks (held), 3 rotten_flesh, 2 chicken (eat only at hunger 6 or below), wooden sword. No bed.
-- No verified cell yet. Crusoe closed the east and south gaps of his cell; I have not been named a cell.
-- Anning is 2 blocks away and in sight. Lizzie, Huck, Zeogreen, Tanya, McCoy are at the cow spot -966,84,-2995 hunting food.
-- Intent: none running. days_since_sleep 26.
-- Next at light: name a cell only after view confirms it is open with solid support. Place a plank only for an exact named cell. Then sleep sheltered and run reflect.
+- Position: -925,78,-2948, on vine in the jungle log gap. Health 20, hunger 20. Not enclosed.
+- Pack: 16 jungle_planks, 2 spruce_planks, 2 jungle_log, 3 rotten_flesh, 3 cocoa_beans, 1 brown_egg, wooden sword, oak_sapling, stick.
+- No bed. Sacagawea went east to the sheep near -938,87,-2966 for 2 white wool and will call back. Wait for her.
+- No verified open cell yet. Do not place blind. View shows log and leaf walls only.
+- days_since_sleep 32. Sleep sheltered once there is a verified cell and the bed is ready, then run reflect.
