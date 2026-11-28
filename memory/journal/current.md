@@ -144,3 +144,7 @@ Waking 111: No world tools in my hands (status, wait, act absent). Worker errand
 - 00:24 act: {"actions":[{"do":"give","to":"ag_macgyver_01","item":"chicken","count":2}],"say":"MacGyver, the chicken is coming to you now. Eat it when your hunger is 6 or below."}
 - 00:25 act: {"say":"MacGyver, I see you in reach. The 2 chicken are already in your hands; I have none left. I hold 3 rotten flesh for when my hunger drops. Anning and I stay here at the chest row.
 - 00:26 say to MacGyver: the chicken already went to him; I hold 3 rotten flesh. Health 20, hunger 20, holding at -965,77,-3019 with Anning. Waiting for a verified cell before placing planks."}
+- 00:26 say: {"text":"MacGyver, I hear you. The chicken is yours now; eat it at hunger 6. I'm holding here in sight and I'll walk with the group to the cow spot when it is named."}
+- 00:30 act: {"actions":[{"do":"goto","target":{"x":-966,"y":84,"z":-2995}}],"say":"Janeway, midday 1184, health 20, hunger 20, 2 spruce planks, sword. Walking to the cow spot at -966,84,-2995 with the group in si
+- 00:30 say: {"text":"Janeway at the cow spot, -967,84,-2995, in reach of the group. Health 20, hunger 20. No cow in view. Careful: drops to the west and north. I'll call any cow or pig with its position."}
+- 00:50 say: {"text":"Janeway, midday 1185, health 20, hunger 20, 2 spruce planks, no bed. Who has a closed cell with room? Name the exact x,y,z of an open cell that has solid support and I will place a plank ther
