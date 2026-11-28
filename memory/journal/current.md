@@ -22,3 +22,34 @@
 - 03:51 act: {"say":"I am at -938,87,-2967 at midday. No sheep and no one in sight here. I will wait a little for Sacagawea, then go back toward the chests.","actions":[]}
 - 03:53 act: {"actions":[{"do":"goto","target":{"x":-960,"y":79,"z":-3001}}],"say":"No one came to the sheep spot and I see no sheep here. I am walking back to the chest row to stay with the group."}
 - 03:56 act: midday 1194. Reached -938,87,-2967: no sheep, no one there. Walked back to -960,79,-3001 with the group in sight. Still 1 white wool, 16 jungle planks, hunger 17.
+- 03:54 say: {"text":"Sacagawea, I have 1 white wool, thank you. Could you give me one more, when you are alone with me and in reach? I will name a cell before I place anything."}
+- 03:54 act: {"actions":[{"do":"note","text":"Back near the chest row at -960,80,-3001 with 1 white wool from Sacagawea. Asked her for one more; no placing yet."}]}
+- 03:55 act: {"say":"Sacagawea, thank you for telling me. I will go to the sheep spot myself in daylight and come back before dusk.","intent":{"goal":"reach_sheep_field","program":"travel","arguments":{"target":{"
+- 03:55 act: {"say":"I am at the sheep spot, -938,87,-2967. No sheep in sight, and I see no wool on the ground. I will look a little longer, then go back to the chest row before dusk.","actions":[{"do":"note","tex
+- 03:55 act: {"actions":[{"do":"goto","target":{"x":-960,"y":80,"z":-3001}}],"intent":{"goal":"return_to_chest_row","program":"travel","arguments":{"target":{"x":-960,"y":80,"z":-3001}},"wake_on":["directly_addres
+- 04:00 say: {"text":"Janeway: I am staying in sight of the group here at -960,80,-3001 through the night. I have no checked cell, so I will not place blind. Who will walk with me to the sheep in daylight?"}
+- 04:04 say: {"text":"Crusoe, thank you. Let us go to the sheep spot at -938,87,-2967 together now while it is bright. Stay in my sight."}
+- 04:08 act: {"intent":{"goal":"walk_to_sheep_spot","program":"travel","arguments":{"target":{"x":-938,"y":87,"z":-2967}},"wake_on":["goal_completed","directly_addressed","unexpected_damage"],"limits":{"max_world_
+- 04:08 say: {"text":"Going to the sheep spot now with Crusoe in sight. Anyone with wool, call out."}
+- 04:08 act: {"intent":{"goal":"return_to_group","program":"travel","arguments":{"target":{"x":-960,"y":80,"z":-3001}},"wake_on":["goal_completed","directly_addressed","unexpected_damage"],"limits":{"max_world_tic
+- 04:08 say: {"text":"Janeway: the sheep spot is empty and no one there had wool. I am back at the chest row. I will go with Reynolds' group to the stores hall in daylight and stay in sight."}
+- 04:08 act: {"intent":{"goal":"follow_reynolds_to_stores","program":"follow","arguments":{"target":"ag_reynolds_01"},"wake_on":["directly_addressed","unexpected_damage","goal_completed"],"limits":{"max_world_tick
+- 04:14 say: {"text":"Janeway, morning 1195: I walk with Reynolds, Orville and Picard to the stores hall now, in sight of the group. Picard, I am coming to you at -945,78,-3006."}
+- 04:14 act: {"intent":{"goal":"join_picard_group","program":"travel","arguments":{"target":{"x":-945,"y":78,"z":-3006}},"wake_on":["goal_completed","directly_addressed","unexpected_damage"],"limits":{"max_world_t
+- 04:14 say: {"text":"Janeway: I am beside Picard, Orville and Wesley now. Picard, say when we go to the stores hall; I walk in your sight."}
+- 04:22 say: {"text":"Janeway: it is dark now. I stay beside Reynolds and Orville, in sight, and I will not place anything until a cell is named and checked."}
+- 04:24 say: {"text":"Janeway: morning. I have 1 white wool and need 2 more for a bed. I will look at the sheep spot near -938,87,-2967 in daylight, in your sight, if someone goes with me."}
+- 04:25 say: {"text":"Janeway: yes, Balboa, let us go to the sheep spot together in daylight. Stay in my sight and I will do the same."}
+- 04:25 act: {"intent":{"goal":"reach_sheep_spot","program":"travel","arguments":{"target":{"x":-938,"y":87,"z":-2967}},"wake_on":["goal_completed","directly_addressed","unexpected_damage","precondition_failed"],"
+- 04:25 say: {"text":"Janeway: I am at the sheep spot, -938,87,-2968. No sheep in sight. Balboa, do you know where sheep graze near here?"}
+- 04:30 act: {"intent":{"goal":"look_for_sheep","program":"explore","arguments":{"legs":2,"leg_blocks":12,"avoid_water":true},"wake_on":["goal_completed","directly_addressed","unexpected_damage","precondition_fail
+- 04:30 act: {"intent":{"goal":"rejoin_group","program":"travel","arguments":{"target":{"x":-945,"y":78,"z":-3006}},"wake_on":["goal_completed","directly_addressed","unexpected_damage","precondition_failed"],"limi
+- 04:38 say: {"text":"Janeway, morning 1196: I still hold 1 white wool and need 2 more for a bed. Does anyone know where sheep graze near here?"}
+- 04:41 act: {"intent":{"goal":"find_sheep_nearby","program":"explore","arguments":{"legs":2,"leg_blocks":16,"avoid_water":true},"wake_on":["directly_addressed","unexpected_damage","goal_completed"],"limits":{"max
+- 04:41 act: {"intent":{"goal":"return_to_group","program":"travel","arguments":{"target":{"x":-944,"y":78,"z":-3006}},"wake_on":["directly_addressed","unexpected_damage","goal_completed"],"limits":{"max_world_tic
+- 04:44 say: {"text":"Janeway, afternoon 1197: I am not leading the walk. I stay here in sight of the group with 1 white wool, looking for sheep. Picard or Reynolds can say go."}
+- 04:45 act: {"intent":{"goal":"follow_group_to_stores","program":"follow","arguments":{"target":"ag_balboa_01"},"wake_on":["directly_addressed","unexpected_damage","goal_completed","precondition_failed"],"limits"
+- 04:49 act: {"say":"Janeway: morning 1197, I'm at -943,78,-3006 with Wesley and Reynolds in sight. Balboa is out of sight, so I'm not chasing him. I'm holding here until a checked cell or a sheep lead turns up.",
+- 05:03 act: {"say":"Janeway: morning. I'm going to look for sheep nearby for wool, a short walk, back to this spot after.","intent":{"goal":"find_sheep_for_wool","program":"explore","arguments":{"legs":2,"leg_blo
+- 05:03 act: {"actions":[{"do":"goto","target":{"x":-945,"y":78,"z":-3006}}],"intent":{"goal":"return_to_group_spot","program":"travel","arguments":{"target":{"x":-945,"y":78,"z":-3006}},"wake_on":["directly_addre
+- 05:05 say: {"text":"Janeway, morning 1198: I'm staying here at -945,78,-3006, in sight of you and Reynolds. I have no checked cell to name and no spare wool yet. If I find a sheep I'll say where."}
