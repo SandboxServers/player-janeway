@@ -142,3 +142,5 @@ Waking 111: No world tools in my hands (status, wait, act absent). Worker errand
 - 00:24 act: {"actions":[{"do":"give","to":"ag_macgyver_01","item":"chicken","count":2}]}
 - 00:24 act: {"say":"MacGyver, Anning stands within 2 blocks of you, so the chicken cannot pass. Step 3 blocks away from Anning, toward the east, and stay in my sight. Then I'll give it."}
 - 00:24 act: {"actions":[{"do":"give","to":"ag_macgyver_01","item":"chicken","count":2}],"say":"MacGyver, the chicken is coming to you now. Eat it when your hunger is 6 or below."}
+- 00:25 act: {"say":"MacGyver, I see you in reach. The 2 chicken are already in your hands; I have none left. I hold 3 rotten flesh for when my hunger drops. Anning and I stay here at the chest row.
+- 00:26 say to MacGyver: the chicken already went to him; I hold 3 rotten flesh. Health 20, hunger 20, holding at -965,77,-3019 with Anning. Waiting for a verified cell before placing planks."}
