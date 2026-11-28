@@ -2,3 +2,13 @@
 - 02:36 act: {"say":"Sacagawea, I am at the jungle log gap, -925,78,-2948. Any white wool you can spare, I will wait here for it."}
 - 02:41 act: {"actions":[{"do":"attack","target":"zombie"}]}
 - 02:41 act: {"actions":[{"do":"attack","target":"zombie"}]}
+- 02:44 act: {"intent":{"goal":"return_to_group","program":"travel","arguments":{"target":{"x":-960,"y":78,"z":-3010}},"wake_on":["directly_addressed","precondition_failed","unexpected_damage","goal_completed"],"l
+- 02:44 act: {"actions":[{"do":"goto","target":"ag_sacagawea_01"}],"say":"Sacagawea, I am back at the chest row. I still need 2 white wool for a bed. Could you spare it?"}
+- 02:45 act: {"say":"Thank you, Sacagawea. Keep the wool for the three you find. I will stay here with the group and wait for it."}
+- 02:45 act: {"say":"Huck, I am too hurt to walk that far before dusk, with a wooden sword and 13.8 health. Go with Sacagawea or with someone at full health, and I will keep watch here."}
+- 02:49 act: {"say":"Lizzie, Crusoe: when an exact open face is named, I can give planks for it. I stay here in sight of the group."}
+- 03:09 say: {"text":"Janeway, morning: I hold 16 jungle planks. Anning, I will give some to a cell you name and check from inside. I still need 3 white wool for a bed."}
+- 03:26 say: {"text":"Janeway, midday 1193: I am hungry too, hunger 17, with only rotten flesh. I will walk to the stores hall with Picard and Reynolds in daylight and stay in sight. Say when you go."}
+- 03:27 say: {"text":"Janeway: ready. I will walk with the group when Uhura says go, and stay in sight."}
+- 03:36 act: {"say":"Janeway, midday 1193: still here in sight, hunger 17. I will walk with the group when Uhura says go."}
+- 03:37 act: {"actions":[{"do":"goto","target":{"x":-957,"y":78,"z":-3001}}],"say":"Janeway: stepping 3 blocks back for MacDonald's hand-over. I place nothing."}
