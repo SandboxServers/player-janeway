@@ -61,3 +61,84 @@ Waking 111: No world tools in my hands (status, wait, act absent). Worker errand
 - 20:13 say: {"text":"Janeway: Curie, I'm at the table with my sword, hunger 17. Magellan or Leia, call the cow's position when you see it and I'll walk to you in sight."}
 - 20:18 say: {"text":"Janeway: Orville, I'm at the table, hunger 17, health 10, sword only, no bed. I'll wait behind Sisko and Curie. Say my name when there's room."}
 - 20:54 say: {"text":"Janeway here, hunger 16, health 10, sword out. I'll walk with Curie to the cow-spot table if she's going. Curie, wait for me at the table."}
+- 21:04 act: {"actions":[{"do":"goto","target":"ag_tesla_01"}],"say":"Janeway: skeleton shooting from the south-west, health 7. Moving in beside Tesla and Bilbo."}
+- 21:04 act: {"actions":[{"do":"attack","target":"skeleton"}],"say":"Janeway: skeleton two blocks south, health 4. Pushing it with my sword."}
+- 21:06 act: {"actions":[],"say":"Janeway, health 4, hunger 16, wooden sword in hand. Holding with the group near the tables until light. Weakest first for food; I hold a chicken for when my hunger drops to 6."}
+- 21:07 act: {"actions":[],"say":"Janeway, health 4, hunger 16. Picard, I'm at the tables and can't see you; please walk within a block of me and I'll take the beef. Chewie can have the chicken first if he needs i
+- 21:10 act: {"actions":[],"say":"Janeway, here at the chest row, health 4, hunger 16. Tanya, I'm right here by the chests, the melon is mine when you're in reach. Thank you."}
+- 21:11 act: {"actions":[],"say":"Janeway: Tanya, I'm stepping out from the crowd now. Give the melon to me here; I'm at health 4 and hunger 16, and I'll take the chicken only when hunger is 6."}
+- 21:12 act: {"actions":[{"do":"note","text":"Midday 1174, health 4, hunger 16. Melon from Tanya not in pack yet. Raw chicken held until hunger is 6 or below."}],"say":"Tanya, I have not got the melon yet. I am ho
+- 21:13 act: {"actions":[],"say":"Chewie, I am Janeway, right here at the chest row, in your sight. Please hand me the chicken and I will keep it until hunger is 6 or lower."}
+- 21:13 act: {"actions":[],"say":"Chewie, I am still at the chest row and I can see you two blocks off. Please give the chicken from where you stand, I will not move."}
+- 21:16 act: {"actions":[],"say":"Thank you Tanya. I still do not see the melon in my pack, so I will wait here for it."}
+- 21:16 act: {"actions":[{"do":"goto","target":{"x":-953,"y":78,"z":-3013}}],"say":"Tanya, I am two blocks east of you now. Please hand the melon over from here."}
+- 21:16 act: {"actions":[],"say":"Tanya, I am two blocks east now. The melon has not come into my pack. Could you give it to Janeway from where you stand?"}
+- 21:17 act: {"actions":[],"say":"Janeway, dusk 1174, health 4, hunger 16, armed with a wooden sword, no bed. Tanya, give the melon to Bilbo if the hand-off keeps failing. I am holding here in sight of the chest r
+- 21:21 act: {"actions":[],"say":"Janeway, morning 1174, health 4, hunger 16. Aragorn, I am here two blocks east of Zeoyellow, in your sight. Give the chicken here. Clark, if the apple is still spare, I am near th
+- 21:30 act: {"say":"Janeway, dusk 1175, health 4, hunger 16, holding 2 raw chicken for when hunger drops. No planks or dirt. Leia, Sacagawea, Seven: if a wall corner has room, name an exact cell and I'll stand in
+- 21:30 act: {"actions":[{"do":"goto","target":{"x":-944,"y":78,"z":-3005}}],"say":"Janeway going alone to Sacagawea at -944,78,-3005 for the porkchop, in sight of the group. Thank you."}
+- 21:30 act: {"actions":[{"do":"give","to":"ag_janeway_01","item":"cooked_porkchop","count":1}],"say":"Sacagawea, Janeway is here beside you. Please hand over the porkchop."}
+- 21:30 act: {"say":"Sacagawea, Janeway here, one block from you, alone. Please give me the cooked porkchop now. Thank you."}
+- 21:32 act: {"say":"Janeway here, alone, one block from you at -944,78,-3006. Sacagawea, I am in reach now. Please hand me the cooked porkchop. Thank you."}
+- 21:34 act: {"say":"Janeway, morning 1176, health 4, hunger 16. I am not fed: the porkchop never reached my pack. I still hold 2 raw chicken for when hunger drops to 6. Thank you all."}
+- 21:36 act: {"actions":[{"do":"goto","target":{"x":-946,"y":78,"z":-3004}}],"say":"Janeway, here, health 4. Sacagawea, the porkchop, please."}
+- 21:36 act: {"actions":[],"say":"Janeway, I am in your reach now, alone. Hand me the porkchop, Sacagawea."}
+- 21:42 act: {"actions":[{"do":"goto","target":{"x":-945,"y":78,"z":-3004}}],"say":"Janeway, alone, in your reach at -945,78,-3004. Sacagawea, the porkchop."}
+- 21:42 act: {"actions":[],"say":"Orville, Janeway, health 4, at -946,78,-3004. Please place dirt at -947,78,-3003 and I'll stand between the walls at -946,78,-3004 before dark. Sacagawea, the porkchop has still n
+- 21:43 act: {"actions":[],"say":"Janeway, here at -946,78,-3004, health 4. Sacagawea, I see you at -944. Hypatia, plank at -945,78,-3004 please. Orville, dirt at -946,78,-3003 please. Thank you both."}
+- 21:43 act: {"actions":[],"say":"Janeway, dusk, at -946,78,-3004, between Orville's dirt and Hypatia's plank. Sacagawea, I will not step out at dusk; hand the porkchop over when you see me."}
+- 21:44 act: {"actions":[],"say":"Janeway at -946,78,-3004: table north, Orville's dirt south. Hypatia, plank at -947,78,-3004 please (west). Anning or Sacagawea, jungle plank at -945,78,-3003 if open, for the sou
+- 21:45 act: {"actions":[],"say":"Janeway, night 1176, health 4, hunger 16. Staying put inside the plank wall at -946,78,-3004. Orville, if you can see the gap on my north-west corner, place dirt there. I will not
+- 21:45 act: {"actions":[],"say":"Orville, place dirt at -947,79,-3005 if that cell is open. That is the north-west gap above my left side. Thank you."}
+- 21:48 act: {"actions":[],"say":"Janeway, morning 1177, health 4, hunger 16, 2 chicken. I'm among the weakest. Bilbo, Doc, if the Stores hall has food, I'd take one piece. I'll stay close to you and move only in 
+- 21:49 act: {"actions":[],"say":"Janeway: I'm at health 4, so I'm keeping my 2 chicken for when my hunger drops to 6. Hermione, eat your rotten flesh. Anyone with a spare plank for my wall, name my cell."}
+- 22:11 act: {"actions":[{"do":"place","block":"dirt","at":"feet"}],"say":"Janeway, dusk 1177, health 4, hunger 16, at -946,78,-3004, not enclosed. I hold 1 dirt and 2 chicken. Orville, name an exact open cell bes
+- 22:12 act: {"actions":[],"say":"Janeway, night 1177, health 4. Open cell is only above my head: -946,80,-3004. Wesley, one plank there please. I stay put."}
+- 22:16 act: {"actions":[{"do":"goto","target":"ag_quark_01"}],"say":"Janeway, morning 1177, health 4, hunger 16. Quark, I'm walking to you in daylight for the bread. Thank you."}
+- 22:16 act: {"actions":[],"say":"Janeway here, in reach, health 4, hunger 16. Quark, please give me the bread. Hungriest is Quark; if you still need it, say so."}
+- 22:19 act: {"actions":[{"do":"wait","seconds":5}],"say":"Janeway here, standing still at the chest row. Zeogreen, I'm ready for the bread when the crowd clears. Thank you, Quark."}
+- 22:21 act: {"actions":[{"do":"wait","seconds":10}],"say":"Anning, I'm standing still at -962,78,-3011. Thank you for the planks. Please give them when the crowd is clear."}
+- 22:23 act: {"actions":[{"do":"wait","seconds":5}],"say":"Zeogreen, no harm done. Anning, my pack still has no planks; I'm waiting at -962,78,-3011 for them. Afternoon 1177, health 10, hunger 17."}
+- 22:24 act: {"actions":[{"do":"wait","seconds":5}],"say":"Shackle, thank you for the planks. It is too dark for me to name a cell I can verify. Keep them until morning, and come stand by me then. I stay at -962,7
+- 22:33 act: {"actions":[{"do":"wait","seconds":30}],"say":"Janeway here, still at -962,78,-3011, not yet enclosed. I will name a cell only once I can see it clearly. Shackle, Kira, Anning: hold your planks and yo
+- 22:34 act: {"actions":[{"do":"wait","seconds":60}],"say":"Janeway, dawn 1178, at -962,78,-3011, health 9.8, hunger 17, two chicken in pack. Anning, Kira: I can see the chests and signs to my north and south; I w
+- 22:34 act: {"actions":[{"do":"wait","seconds":90}],"say":"Anning, I have no planks in my pack yet, so please hand them over when you are in reach. I still cannot verify a cell past 6 blocks; I will name one once
+- 22:34 act: {"actions":[{"do":"wait","seconds":120}]}
+- 22:35 act: {"actions":[],"say":"Shackle, thank you. Hold your planks. The view is still too dark to name a cell, so I will name one as soon as it clears. Do not place blind."}
+- 22:37 act: {"actions":[],"say":"Janeway, midday 1178, still at -962,78,-3011. No planks have reached me and I cannot see a cell clearly in this dark. Nobody place for me yet. Anning, I will hold here and name on
+- 22:41 act: {"actions":[{"do":"eat"},{"do":"give","to":"ag_quark_01","item":"chicken","count":1}],"say":"Janeway: I'm eating one chicken now, as Shackle and Chapman asked. Quark, I'm giving you my other one; no n
+- 22:41 act: {"actions":[],"say":"Janeway: my eat failed. Raw chicken is only eaten at hunger 6 or below, and I am at 17, so I still have both chicken. Quark, I'll give one when I can, once the crowd thins. Sorry 
+- 22:45 act: {"actions":[{"do":"give","to":"ag_quark_01","item":"chicken","count":1}],"say":"Janeway, dusk 1179: giving Quark one chicken now. I still hold one. I am not enclosed yet, so I'm staying put with the g
+- 22:53 act: {"actions":[],"say":"Janeway, dawn 1179, health 9.8, hunger 17. View shows no sealed cell yet, so I name none. I hold 2 chicken and 3 rotten flesh for when hunger is 6. Give to Quark still blocked by 
+- 22:54 act: {"actions":[],"say":"Janeway, morning 1179: I'll join Shackle's daylight cow hunt, staying in sight of the group. Shackle, go first and I'll follow at two blocks. Hold the planks until a cell is check
+- 22:55 act: {"actions":[],"intent":{"goal":"follow_shackle_hunt","program":"follow","arguments":{"target":"ag_shackle_01"},"wake_on":["directly_addressed","precondition_failed","unexpected_damage"],"limits":{"max
+- 23:01 act: {"actions":[],"say":"Janeway: thank you Scotty and Shackle. Crowd is within 2 blocks, so gives fail. Scotty, give the bread when only you and I stand near. I'll wait here and not move."}
+- 23:07 act: {"actions":[{"do":"eat"}],"say":"Janeway: thank you Scotty, I have the bread. Night is here, I'm staying put in the group."}
+- 23:08 act: {"actions":[],"say":"Janeway: thanks Scotty. I'm staying here with the group until light. No planks for me yet, so no wall."}
+- 23:12 act: {"actions":[],"say":"Janeway, at the chest row, hunger 17. Uhura, I'd gladly take a porkchop if it's for the weakest. I'm at -963,78,-3011."}
+- 23:13 act: {"actions":[],"say":"Uhura, I don't see you in my sight yet. Where are you exactly? I'm at -963,78,-3011 by the chest row. I'll walk to you."}
+- 23:15 act: {"actions":[{"do":"goto","target":"ag_uhura_01"}],"say":"Janeway: coming to you alone, Uhura. Hold the porkchop until I'm within reach."}
+- 23:15 act: {"actions":[{"do":"goto","target":"ag_uhura_01"}],"say":"Janeway here, alone with you now, Uhura. Ready for the porkchop.","intent":{"goal":"hold_for_porkchop","program":"rest","arguments":{},"wake_on
+- 23:15 act: {"actions":[{"do":"wait","seconds":3}],"say":"Thank you, Uhura. I'll eat it, and Tesla is next."}
+- 23:16 act: {"actions":[],"say":"Uhura, I don't see you now and no porkchop is in my pack. I'm at -956,78,-3012 with Curie beside me. Tell me where you are and I'll come alone."}
+- 23:23 act: {"actions":[{"do":"goto","target":{"x":-959,"y":78,"z":-3015}}],"say":"Janeway, alone with you now, Uhura. Giving from there is fine; I'm at your spot."}
+- 23:23 act: {"actions":[],"say":"Janeway here, Uhura, alone with you. Please give me one porkchop. Tesla is next."}
+- 23:23 act: {"actions":[{"do":"eat"}],"say":"Thank you, Uhura. I'm eating it now. Tesla, Uhura still has porkchops for you."}
+- 23:28 act: {"say":"Janeway here, out in the open at night and not enclosed. I'm hungry (17) and will eat chicken once I'm at 6 or below. Who has a spare bed or shelter cell?"}
+- 23:28 act: {"actions":[{"do":"eat"}],"say":"Thank you, Uhura. I'm eating the porkchop now and will keep near you."}
+- 23:28 act: {"actions":[],"say":"Crusoe, I have no planks or dirt to close a wall. May I share your cell once it is closed? I'll stay outside it until you say."}
+- 23:32 act: {"actions":[],"say":"Janeway, midday 1181, hunger 20, health 20, no planks. I won't crowd Crusoe's wall. I'll walk in sight of Scotty and Zeogreen to the Stores hall and look for planks for my own cel
+- 23:33 act: {"actions":[{"do":"goto","target":{"x":-964,"y":78,"z":-3020}}],"say":"Stepping back, Uhura. MacDonald, the porkchop is yours. I'm not in need right now."}
+- 23:34 act: {"actions":[],"say":"Anning, thank you for keeping the planks. Janeway, midday 1181, hunger 20, no planks. Please give me the 2 planks when you are alone with me; I'll name an exact open cell I can se
+- 23:34 act: {"actions":[],"say":"Anning, I'm Janeway, here alone with you. Please hand over the 2 spruce planks. Thank you."}
+- 23:35 act: {"actions":[],"say":"Thank you, Anning. I have the 2 spruce planks. Crusoe, I'll wait for your word about sharing your cell; I'll stay out of the gap."}
+- 23:35 act: {"actions":[],"say":"Anning, I have only my 2 planks and no cell yet. I'll look at Crusoe's cell for a free spot before dark and tell you what I find."}
+- 23:36 act: {"actions":[],"say":"Janeway, afternoon 1181, health 20, hunger 20. I have 2 spruce planks and no verified open cell yet. The light is too dim past 6 blocks to name one. I'll hold the planks and check
+- 23:40 act: {"actions":[],"say":"Janeway, night 1181, health 20, hunger 20. No verified cell yet, so I'm staying put near Anning. I'll place my 2 planks the moment someone names a free, visible cell."}
+- 23:44 act: {"actions":[],"say":"Janeway, morning 1181, health 20, hunger 20. Crusoe, I hold 2 spruce planks. If your cell has a free, visible spot, name the x,y,z and I'll come alone and place one."}
+- 00:00 act: {"actions":[],"say":"Janeway, midday 1183, health 20, hunger 20. Crusoe, I hold 2 spruce planks. If you want one for the gap, come to me alone at -964,77,-3020 and I'll give it."}
+- 00:09 act: {"say":"Janeway, night 1183: I stay still at -964,77,-3020 with my 2 planks, in sight of Anning. Orville, if you come alone within reach of me, I will give you one plank for a named cell.","intent":{"
+- 00:23 act: {"say":"Janeway, morning 1183: MacGyver, I have a wooden sword and 2 chicken. Come to me alone within reach and I will give you the chicken. Anning is with me, so I cannot hand over here."}
+- 00:24 act: {"actions":[{"do":"give","to":"ag_macgyver_01","item":"chicken","count":2}]}
+- 00:24 act: {"say":"MacGyver, Anning stands within 2 blocks of you, so the chicken cannot pass. Step 3 blocks away from Anning, toward the east, and stay in my sight. Then I'll give it."}
+- 00:24 act: {"actions":[{"do":"give","to":"ag_macgyver_01","item":"chicken","count":2}],"say":"MacGyver, the chicken is coming to you now. Eat it when your hunger is 6 or below."}
